@@ -13,3 +13,62 @@ body {
     padding: 25px;
 
 }
+
+#form-container h2 {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#form-container a {
+    color: #222;
+    transition: .5s;
+}
+
+#form-container a:hover {
+    color: #6C63FF; /*Faz com que o link, uma vez que o mouse
+    esteja sobre ele, fique roxo*/
+}
+
+#form-container form {
+    padding-bottom: 0;
+}
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid #CCC;
+    border-radius: 0;
+}
+
+#form-container .form-control:focus {
+    box-shadow: none; /*Remove o AZUL padrão do BootStrap 
+    em volta da text-box*/
+ }
+
+ #form-container .form-floating label {
+    color: #CCC;    
+    /*ALTERA A COR DO TEXTO DENTRO DA TEXTBOX */
+ }
+
+ #form-container .form-floating > .form-control:focus~label {
+    color: #222;    
+    /*ALTERA A COR DO TEXTO DENTRO DA TEXTBOX QUANDO ESTA 
+    ESTÁ SELECIONADA */
+ }
+
+ #form-container input[type="submit"] {
+     background-color: #6C63FF;
+     border-color: #6C63FF;
+ }
+
+/* IMAGE */
+
+.row.align-items-center {
+    align-content: center;
+    height: 100%;
+    padding: 75px 0;
+}
+
+#link-container {
+    text-align: center;
+    padding-top: 50px;
+}
